@@ -6,3 +6,9 @@ This repo will provide a starting point for building Movie List, an educational 
 - Setup desired NPM scripts (i.e., what should the package.json file look like in the "scripts" section, how do we want to start our application?)
 - Run webpack and review the transpiled output--does the React code look as you expect?
 - Debug your transpilation!
+
+
+## Solution (Spoilers!)
+- Take a look at the .babelrc (configuration file) -- what is different from the master branch? Why do we need the [second preset](https://babeljs.io/docs/en/babel-preset-react)
+- What additional dependencies do we have in our package.json file (lines 20 & 21)? What would happen when we tried to execute our import statements in index.js without these dependencies?
+- What is our NPM start script command on line 7 of our package.json file?
